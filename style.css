@@ -1,0 +1,199 @@
+/* My Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+h1 {
+   font-family: 'Viga', sans-serif;
+}
+
+p {
+   font-family: 'Palanquin Dark', sans-serif;
+}
+
+a {
+   cursor: none;
+   text-decoration: none;
+   font-family: 'Bebas Neue', cursive;
+}
+
+* {
+   scroll-behavior: smooth;
+   user-select: none;
+   -ms-user-select: none;
+   -webkit-user-select: none;
+   -moz-user-select: none;
+}
+
+body {
+   scroll-behavior: smooth;
+   min-height: 1000vh;
+}
+
+.data-content {
+  
+}
+
+.data-content .data-user {
+   padding: 50px;
+}
+
+.data-user .data-profil {
+   display: flex;
+   padding: 10px;
+   justify-content: center;
+}
+
+.data-profil object {
+   width: 125px;
+   height: 125px;
+   padding: 3px;
+   border-radius: 50%;
+   border: 3px solid cornflowerblue;
+}
+
+.data-user .data-name {
+   text-align: center;
+}
+
+.data-name .username {
+   display: flex;
+   line-height: .5;
+   align-items: center;
+   justify-content: center;
+}
+
+.data-name .username img {
+   width: 17px;
+}
+
+.data-name .username h1 {
+   font-size: 30px;
+   padding: 5px;
+   text-align: center;
+}
+
+.data-name p {
+   
+}
+
+.data-name .data-sosial {
+   padding: 10px;
+}
+
+.data-sosial .sosial {
+   font-size: 25px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.data-content .data-projek {
+   text-align: center;
+}
+
+.data-projek .projek {
+   display: flex;
+   justify-content: space-around;
+}
+
+.data-projek .data-no h1 {
+   font-size: 20px;
+}
+
+.data-cv {
+   margin: 50px;
+   padding: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.cv button {
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+.data-footer {
+   left: 0;
+   right: 0;
+   bottom: 0;
+   z-index: 9999;
+   width: 100%;
+   height: 66px;
+   position: fixed;
+   display: flex;
+   justify-content: center;
+}
+
+.data-footer .footer {
+   display: flex;
+   align-items: center;
+  justify-content: space-around;
+}
+
+.footer .data {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.data i {
+   font-size: 20px;
+}
+
+.data a {
+   font-size: 15px;
+}
+
+.data-about {
+   padding: 30px;
+   margin-top: 150px;
+}
+
+.data-about h1 {
+   font-size: 25px;
+   text-align: center;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.data-about .about {
+   text-align: center;
+}
+
+.data-about .about p {
+   margin: 50px;
+}
+
+.data-skill {
+   padding: 30px;
+   margin-top: 150px;
+}
+
+.data-skill h1 {
+   margin: 5px;
+   text-align: center;
+   font-size: 25px;
+   font-family: 'Bebas Neue', cursive;
+}
+
+.data-skill .skill {
+   display: flex;
+   justify-content: center;
+}
+
+.skill .aktif {
+   display: flex;
+}
+
+.aktif .progres {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.progres .oke {
+   width: 20px;
+   height: 20px;
+   margin: 5px;
+   border-radius: 50%;
+}
